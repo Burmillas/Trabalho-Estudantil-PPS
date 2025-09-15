@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciberbullying: Entender para Prevenir</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .gradient-bg {
+            background-color: #ffffff;
+            background-image: radial-gradient(#6366f11a 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+        .hero-gradient {
+            background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(243, 244, 246, 1) 100%);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased">
+
+    <!-- Cabeçalho e Navegação -->
+    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 shadow-sm">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <a href="#" class="text-xl font-bold text-indigo-600 flex items-center">
+                    <i data-lucide="shield" class="mr-2"></i>
+                    <span>Cyber-Consciente</span>
+                </a>
+                <nav class="hidden md:flex space-x-6 items-center">
+                    <a href="#o-que-e" class="text-gray-600 hover:text-indigo-600 transition-colors">O que é</a>
+                    <a href="#consequencias" class="text-gray-600 hover:text-indigo-600 transition-colors">Consequências</a>
+                    <a href="#prevencao" class="text-gray-600 hover:text-indigo-600 transition-colors">Prevenção</a>
+                    <a href="#legislacao" class="text-gray-600 hover:text-indigo-600 transition-colors">Leis</a>
+                    <a href="#ajuda" class="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition-all">Buscar Ajuda</a>
+                </nav>
+                <button id="mobile-menu-button" class="md:hidden">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+            <!-- Menu Mobile -->
+            <div id="mobile-menu" class="hidden md:hidden mt-4">
+                <a href="#o-que-e" class="block py-2 px-4 text-sm text-gray-600 hover:bg-gray-100 rounded">O que é</a>
+                <a href="#consequencias" class="block py-2 px-4 text-sm text-gray-600 hover:bg-gray-100 rounded">Consequências</a>
+                <a href="#prevencao" class="block py-2 px-4 text-sm text-gray-600 hover:bg-gray-100 rounded">Prevenção</a>
+                <a href="#legislacao" class="block py-2 px-4 text-sm text-gray-600 hover:bg-gray-100 rounded">Leis</a>
+                <a href="#ajuda" class="block py-2 px-4 text-sm bg-indigo-600 text-white hover:bg-indigo-700 rounded mt-2 text-center">Buscar Ajuda</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- 1. Seção Inicial (Home) -->
+        <section id="home" class="relative pt-20 pb-24 md:pt-32 md:pb-36 gradient-bg">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-6xl font-bold text-gray-900 leading-tight">
+                    Ciberbullying: <span class="text-indigo-600">Entender para Prevenir</span>
+                </h1>
+                <p class="mt-6 text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+                    O mundo digital deve ser um espaço de respeito e empatia. Juntos, podemos construir uma internet mais segura para todos.
+                </p>
+                <div class="mt-10">
+                    <img src="https://placehold.co/600x400/E9D5FF/3730A3?text=Respeito+Online" alt="Ilustração sobre respeito e empatia no ambiente digital" class="mx-auto rounded-lg shadow-2xl w-full max-w-2xl">
+                </div>
+            </div>
+            <div class="absolute bottom-0 left-0 w-full h-32 hero-gradient"></div>
+        </section>
+
+        <!-- 2. O que é Ciberbullying -->
+        <section id="o-que-e" class="py-20 bg-gray-100">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-gray-900">O que é Ciberbullying?</h2>
+                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">É a prática de usar tecnologias digitais para assediar, humilhar, ameaçar ou constranger alguém de forma intencional e repetida.</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Card Definição -->
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-full bg-indigo-100 text-indigo-600 mb-4">
+                            <i data-lucide="book-open-check"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Definição Clara</h3>
+                        <p class="text-gray-600">Agressão virtual que acontece em redes sociais, apps de mensagens, fóruns ou jogos online, deixando a vítima exposta 24/7.</p>
+                    </div>
+                    <!-- Card Diferença -->
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-full bg-purple-100 text-purple-600 mb-4">
+                            <i data-lucide="arrow-left-right"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Bullying vs. Ciberbullying</h3>
+                        <p class="text-gray-600">O ciberbullying tem um alcance maior, pode ser anônimo e o conteúdo ofensivo pode permanecer online por muito tempo, dificultando a superação.</p>
+                    </div>
+                    <!-- Card Exemplos -->
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-full bg-pink-100 text-pink-600 mb-4">
+                            <i data-lucide="message-square-quote"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Exemplos Comuns</h3>
+                        <p class="text-gray-600">Espalhar boatos, criar perfis falsos, compartilhar fotos íntimas sem permissão (exposição), ofender em comentários e excluir de grupos online.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Consequências -->
+        <section id="consequencias" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-gray-900">Consequências Devastadoras</h2>
+                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Os impactos do ciberbullying vão além da tela, afetando profundamente a vida das vítimas.</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 text-center">
+                     <div class="flex flex-col items-center p-6 border border-gray-200 rounded-lg">
+                        <div class="text-red-500 mb-4">
+                            <i data-lucide="brain-circuit" class="w-12 h-12"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Impactos Psicológicos</h3>
+                        <p class="text-gray-600">Ansiedade, depressão, baixa autoestima, isolamento social e, em casos graves, pensamentos suicidas.</p>
+                    </div>
+                    <div class="flex flex-col items-center p-6 border border-gray-200 rounded-lg">
+                        <div class="text-blue-500 mb-4">
+                           <i data-lucide="users" class="w-12 h-12"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Impactos Sociais</h3>
+                        <p class="text-gray-600">Dificuldade de relacionamento, perda de confiança nos outros, medo de interagir socialmente, tanto online quanto offline.</p>
+                    </div>
+                    <div class="flex flex-col items-center p-6 border border-gray-200 rounded-lg">
+                        <div class="text-green-500 mb-4">
+                            <i data-lucide="graduation-cap" class="w-12 h-12"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Impactos Acadêmicos</h3>
+                        <p class="text-gray-600">Queda no rendimento escolar, falta de concentração e desinteresse pelos estudos, podendo levar à evasão escolar.</p>
+                    </div>
+                </div>
+                <!-- Estatísticas -->
+                <div class="mt-16 bg-indigo-50 p-8 rounded-lg">
+                    <h3 class="text-2xl font-bold text-center text-indigo-800 mb-6">Dados Alarmantes</h3>
+                    <div class="grid md:grid-cols-3 gap-8 text-center">
+                        <div>
+                            <p class="text-4xl font-bold text-indigo-600">1 em 3</p>
+                            <p class="text-indigo-800 mt-2">jovens no mundo já foi vítima de ciberbullying. (Fonte: UNICEF)</p>
+                        </div>
+                        <div>
+                            <p class="text-4xl font-bold text-indigo-600">43%</p>
+                            <p class="text-indigo-800 mt-2">dos jovens no Brasil já sofreram ciberbullying. (Fonte: Intel Security)</p>
+                        </div>
+                        <div>
+                            <p class="text-4xl font-bold text-indigo-600">60%</p>
+                            <p class="text-indigo-800 mt-2">das vítimas não contam a ninguém sobre o assédio sofrido. (Fonte: Safernet)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Como Prevenir e Combater -->
+        <section id="prevencao" class="py-20 bg-gray-100">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-gray-900">Como Prevenir e Combater</h2>
+                    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">A prevenção é a melhor ferramenta. Veja dicas para jovens, pais e educadores.</p>
+                </div>
+                <div class="grid lg:grid-cols-3 gap-8">
+                    <!-- Dicas para Jovens -->
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="flex items-center text-indigo-600 mb-4">
+                            <i data-lucide="user" class="w-8 h-8"></i>
+                            <h3 class="ml-3 text-xl font-semibold">Para Jovens</h3>
+                        </div>
+                        <ul class="space-y-3 text-gray-600 list-disc list-inside">
+                            <li>Pense antes de postar. O que vai para a internet, fica lá.</li>
+                            <li>Não compartilhe informações pessoais ou senhas.</li>
+                            <li>Configure a privacidade de suas contas.</li>
+                            <li>Seja gentil online. Trate os outros como gostaria de ser tratado.</li>
+                            <li>Não responda a provocações. Bloqueie e denuncie o agressor.</li>
+                            <li>Guarde as provas (prints) e peça ajuda a um adulto de confiança.</li>
+                        </ul>
+                    </div>
+                    <!-- Dicas para Pais -->
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="flex items-center text-purple-600 mb-4">
+                            <i data-lucide="heart-handshake" class="w-8 h-8"></i>
+                            <h3 class="ml-3 text-xl font-semibold">Para Pais</h3>
+                        </div>
+                        <ul class="space-y-3 text-gray-600 list-disc list-inside">
+                            <li>Converse abertamente com seus filhos sobre a vida online.</li>
+                            <li>Esteja atento a mudanças de comportamento.</li>
+                            <li>Estabeleça regras claras sobre o uso da tecnologia.</li>
+                            <li>Ensine sobre empatia e respeito no ambiente digital.</li>
+                            <li>Mostre que você é um porto seguro para eles pedirem ajuda.</li>
+                            <li>Acompanhe a vida digital dos filhos, sem invadir a privacidade.</li>
+                        </ul>
+                    </div>
+                    <!-- Dicas para Educadores -->
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="flex items-center text-pink-600 mb-4">
+                           <i data-lucide="school" class="w-8 h-8"></i>
+                            <h3 class="ml-3 text-xl font-semibold">Para Educadores</h3>
+                        </div>
+                        <ul class="space-y-3 text-gray-600 list-disc list-inside">
+                            <li>Promova debates e atividades sobre cidadania digital.</li>
+                            <li>Crie um ambiente escolar acolhedor e seguro.</li>
+                            <li>Esteja preparado para identificar e intervir em casos de ciberbullying.</li>
+                            <li>Envolva os pais na discussão e na busca por soluções.</li>
+                            <li>Divulgue canais de denúncia e apoio dentro da escola.</li>
+                            <li>Incentive o uso positivo e criativo da internet.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 🚀 Extra: Quiz Interativo -->
+        <section id="quiz" class="py-20 bg-indigo-700 text-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl font-bold">Você sabe identificar o ciberbullying?</h2>
+                <p class="mt-4 max-w-2xl mx-auto">Teste seus conhecimentos com nosso quiz rápido!</p>
+                <div id="quiz-container" class="mt-8 max-w-2xl mx-auto bg-white text-gray-800 p-8 rounded-lg shadow-2xl text-left">
+                    <!-- O quiz será carregado aqui pelo JavaScript -->
+                </div>
+                <div id="quiz-results" class="mt-8 hidden">
+                    <h3 id="quiz-result-title" class="text-2xl font-bold"></h3>
+                    <p id="quiz-result-text" class="mt-2"></p>
+                    <button id="quiz-restart" class="mt-6 bg-white text-indigo-700 font-semibold px-6 py-3 rounded-lg hover:bg-gray-200 transition-all">Tentar novamente</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Legislação e Direitos -->
+        <section id="legislacao" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="flex flex-col lg:flex-row items-center gap-12">
+                    <div class="lg:w-1/2">
+                        <h2 class="text-3xl font-bold text-gray-900">Legislação e Direitos no Brasil</h2>
+                        <p class="mt-4 text-gray-600">O ciberbullying não é "brincadeira" e pode ter consequências legais sérias. Conhecer seus direitos é fundamental para se proteger.</p>
+                        <div class="mt-6 space-y-4">
+                            <div class="bg-gray-50 p-4 rounded-lg">
+                                <h4 class="font-semibold text-indigo-700">Lei nº 13.185/2015</h4>
+                                <p class="text-sm text-gray-600">Instituiu o Programa de Combate à Intimidação Sistemática (Bullying) em todo o território nacional, incluindo o ciberbullying.</p>
+                            </div>
+                            <div class="bg-gray-50 p-4 rounded-lg">
+                                <h4 class="font-semibold text-indigo-700">Marco Civil da Internet (Lei nº 12.965/2014)</h4>
+                                <p class="text-sm text-gray-600">Garante a liberdade de expressão, mas também a proteção da privacidade e dos dados pessoais, permitindo a remoção de conteúdo ofensivo mediante ordem judicial.</p>
+                            </div>
+                            <div class="bg-gray-50 p-4 rounded-lg">
+                                <h4 class="font-semibold text-indigo-700">Código Penal</h4>
+                                <p class="text-sm text-gray-600">Atos de ciberbullying podem ser enquadrados em crimes como calúnia, difamação, injúria, ameaça e constrangimento ilegal.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/2">
+                        <img src="https://placehold.co/500x400/C4B5FD/3730A3?text=Justi%C3%A7a+e+Leis" alt="Ilustração de uma balança da justiça" class="rounded-lg shadow-lg w-full">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 6. Ajuda e Contato (Footer) -->
+    <footer id="ajuda" class="bg-gray-800 text-white py-16">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-2xl font-bold">Precisa de Ajuda?</h3>
+                    <p class="mt-4 text-gray-300">Você não está sozinho. Existem organizações prontas para te ouvir e oferecer apoio de forma segura e anônima.</p>
+                    <div class="mt-6 space-y-4">
+                        <a href="https://www.cvv.org.br/" target="_blank" class="flex items-center text-indigo-300 hover:text-white transition-colors">
+                            <i data-lucide="phone" class="mr-3"></i>
+                            <span>CVV (Centro de Valorização da Vida) - Ligue 188</span>
+                        </a>
+                         <a href="https://www.safernet.org.br/helpline" target="_blank" class="flex items-center text-indigo-300 hover:text-white transition-colors">
+                            <i data-lucide="message-circle" class="mr-3"></i>
+                            <span>SaferNet Brasil - Canal de Ajuda</span>
+                        </a>
+                        <a href="https://new.safernet.org.br/denuncie" target="_blank" class="flex items-center text-indigo-300 hover:text-white transition-colors">
+                            <i data-lucide="shield-alert" class="mr-3"></i>
+                            <span>Canal de Denúncia da SaferNet</span>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold">Fale Conosco</h3>
+                    <p class="mt-4 text-gray-300">Tem alguma dúvida ou sugestão? Envie uma mensagem. (Este é um formulário demonstrativo)</p>
+                    <form class="mt-6 space-y-4">
+                        <input type="text" placeholder="Seu nome" class="w-full bg-gray-700 border border-gray-600 rounded-md py-2 px-4 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                        <input type="email" placeholder="Seu e-mail" class="w-full bg-gray-700 border border-gray-600 rounded-md py-2 px-4 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                        <textarea placeholder="Sua mensagem" rows="4" class="w-full bg-gray-700 border border-gray-600 rounded-md py-2 px-4 focus:outline-none focus:ring-2 focus:ring-indigo-500"></textarea>
+                        <button type="submit" class="w-full bg-indigo-600 py-3 rounded-md hover:bg-indigo-700 transition-colors font-semibold">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-12 pt-6 text-center text-gray-400 text-sm">
+                <!-- Seção de Créditos Adicionada -->
+                <div class="mb-8">
+                    <h4 class="text-lg font-semibold text-white mb-4">Integrantes do Projeto</h4>
+                    <div class="text-gray-300 space-y-2 text-base">
+                        <p>Rafaella Santana</p>
+                        <p>Caio Alexander</p>
+                        <p>Camila Savia</p>
+                        <p>Pedro Sanhueza</p>
+                        <p>Cibele Rebeca</p>
+                    </div>
+                </div>
+                <p>&copy; 2024 Projeto Cyber-Consciente. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        // Ícones Lucide
+        lucide.createIcons();
+
+        // Menu Mobile
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+        
+        // Lógica do Quiz
+        const quizContainer = document.getElementById('quiz-container');
+        const quizResults = document.getElementById('quiz-results');
+        const quizResultTitle = document.getElementById('quiz-result-title');
+        const quizResultText = document.getElementById('quiz-result-text');
+        const quizRestartBtn = document.getElementById('quiz-restart');
+
+        const quizQuestions = [
+            {
+                question: "Criar um perfil falso para zombar de um colega é considerado ciberbullying?",
+                answers: ["Sim, é uma forma de assédio.", "Não, é só uma brincadeira.", "Depende da intenção."],
+                correct: 0
+            },
+            {
+                question: "O que você deve fazer se receber uma mensagem ofensiva online?",
+                answers: ["Responder e começar uma discussão.", "Ignorar, bloquear o remetente e contar para um adulto.", "Apagar a mensagem e esquecer."],
+                correct: 1
+            },
+            {
+                question: "Compartilhar uma foto constrangedora de alguém sem permissão é ciberbullying?",
+                answers: ["Não, se a pessoa estava em um lugar público.", "Sim, e pode ser considerado crime.", "Apenas se a foto for editada."],
+                correct: 1
+            },
+             {
+                question: "Ser 'excluído' de propósito de grupos online (WhatsApp, jogos) é uma forma de ciberbullying?",
+                answers: ["Não, as pessoas podem convidar quem quiserem.", "Sim, é uma forma de exclusão social e agressão.", "Apenas se for acompanhado de ofensas diretas."],
+                correct: 1
+            }
+        ];
+
+        let currentQuestion = 0;
+        let score = 0;
+
+        function loadQuiz() {
+            currentQuestion = 0;
+            score = 0;
+            quizResults.classList.add('hidden');
+            quizContainer.classList.remove('hidden');
+            showQuestion();
+        }
+
+        function showQuestion() {
+            quizContainer.innerHTML = '';
+            const q = quizQuestions[currentQuestion];
+            
+            const questionEl = document.createElement('div');
+            questionEl.innerHTML = `
+                <h4 class="font-bold text-lg mb-4">Questão ${currentQuestion + 1}/${quizQuestions.length}</h4>
+                <p class="mb-6">${q.question}</p>
+            `;
+
+            const answersEl = document.createElement('div');
+            answersEl.classList.add('space-y-3');
+            
+            q.answers.forEach((answer, index) => {
+                const button = document.createElement('button');
+                button.textContent = answer;
+                button.classList.add('w-full', 'text-left', 'p-4', 'border', 'border-gray-300', 'rounded-lg', 'hover:bg-indigo-50', 'hover:border-indigo-400', 'transition-all');
+                button.onclick = () => selectAnswer(index);
+                answersEl.appendChild(button);
+            });
+
+            questionEl.appendChild(answersEl);
+            quizContainer.appendChild(questionEl);
+        }
+
+        function selectAnswer(index) {
+            if (index === quizQuestions[currentQuestion].correct) {
+                score++;
+            }
+            currentQuestion++;
+            if (currentQuestion < quizQuestions.length) {
+                showQuestion();
+            } else {
+                showResults();
+            }
+        }
+        
+        function showResults() {
+            quizContainer.classList.add('hidden');
+            quizResults.classList.remove('hidden');
+
+            const percentage = Math.round((score / quizQuestions.length) * 100);
+            let title = '';
+            let text = `Você acertou ${score} de ${quizQuestions.length} questões (${percentage}%).`;
+
+            if (percentage >= 75) {
+                title = "Parabéns, você está bem informado!";
+                text += " Continue sendo um aliado na luta contra o ciberbullying.";
+            } else if (percentage >= 50) {
+                title = "Bom trabalho!";
+                text += " Você tem um bom conhecimento, mas sempre há mais a aprender para ajudar a criar um ambiente online mais seguro.";
+            } else {
+                title = "Continue aprendendo!";
+                text += " É importante se informar para saber como agir e se proteger. Explore nosso site para aprender mais.";
+            }
+            
+            quizResultTitle.textContent = title;
+            quizResultText.textContent = text;
+        }
+
+        quizRestartBtn.addEventListener('click', loadQuiz);
+        
+        // Carrega o quiz quando a página inicia
+        window.addEventListener('load', loadQuiz);
+        
+    </script>
+</body>
+</html>
+
